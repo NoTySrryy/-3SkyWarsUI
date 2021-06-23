@@ -1,0 +1,450 @@
+-- https://discord.gg/9AP5hm9Tpp --
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local TpMiddleIsland = Instance.new("TextButton")
+local TpMVP = Instance.new("TextButton")
+local TpVip = Instance.new("TextButton")
+local TpShop = Instance.new("TextButton")
+local Teleports = Instance.new("TextLabel")
+local FastWS = Instance.new("TextButton")
+local DeleteKillBarriers = Instance.new("TextButton")
+local NormalWS = Instance.new("TextButton")
+local InfJump = Instance.new("TextButton")
+local Stuff = Instance.new("TextLabel")
+local Extra = Instance.new("TextLabel")
+local DeleteBarriers = Instance.new("TextButton")
+local NoLegs = Instance.new("TextButton")
+local Reset = Instance.new("TextButton")
+local ClickTP = Instance.new("TextButton")
+local Credit = Instance.new("TextLabel")
+local OpenClose = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.443683356, 0, 0.271165729, 0)
+Frame.Size = UDim2.new(0, 305, 0, 25)
+
+Main.Name = "Main"
+Main.Parent = Frame
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(-0.00121717248, 0, 0.997179031, 0)
+Main.Size = UDim2.new(0, 305, 0, 268)
+
+TpMiddleIsland.Name = "TpMiddleIsland"
+TpMiddleIsland.Parent = Main
+TpMiddleIsland.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TpMiddleIsland.BorderColor3 = Color3.fromRGB(65, 65, 65)
+TpMiddleIsland.BorderSizePixel = 0
+TpMiddleIsland.Position = UDim2.new(0, 0, 0.374626875, 0)
+TpMiddleIsland.Size = UDim2.new(0, 150, 0, 25)
+TpMiddleIsland.Font = Enum.Font.Code
+TpMiddleIsland.Text = "Middle Island"
+TpMiddleIsland.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpMiddleIsland.TextSize = 20.000
+
+TpMVP.Name = "TpMVP"
+TpMVP.Parent = Main
+TpMVP.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TpMVP.BorderColor3 = Color3.fromRGB(65, 65, 65)
+TpMVP.BorderSizePixel = 0
+TpMVP.Position = UDim2.new(0.508196712, 0, 0.374626875, 0)
+TpMVP.Size = UDim2.new(0, 150, 0, 25)
+TpMVP.Font = Enum.Font.Code
+TpMVP.Text = "Mega Vip"
+TpMVP.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpMVP.TextSize = 20.000
+
+TpVip.Name = "TpVip"
+TpVip.Parent = Main
+TpVip.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TpVip.BorderColor3 = Color3.fromRGB(65, 65, 65)
+TpVip.BorderSizePixel = 0
+TpVip.Position = UDim2.new(0, 0, 0.471194029, 0)
+TpVip.Size = UDim2.new(0, 150, 0, 25)
+TpVip.Font = Enum.Font.Code
+TpVip.Text = "Vip"
+TpVip.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpVip.TextSize = 20.000
+
+TpShop.Name = "TpShop"
+TpShop.Parent = Main
+TpShop.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TpShop.BorderColor3 = Color3.fromRGB(65, 65, 65)
+TpShop.BorderSizePixel = 0
+TpShop.Position = UDim2.new(0.508000076, 0, 0.471193969, 0)
+TpShop.Size = UDim2.new(0, 150, 0, 25)
+TpShop.Font = Enum.Font.Code
+TpShop.Text = "Shop"
+TpShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpShop.TextSize = 20.000
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Main
+Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.BackgroundTransparency = 1.000
+Teleports.BorderSizePixel = 0
+Teleports.Position = UDim2.new(0.00442034611, 0, 0.281094551, 0)
+Teleports.Size = UDim2.new(0, 304, 0, 25)
+Teleports.Font = Enum.Font.Code
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.TextSize = 20.000
+
+FastWS.Name = "FastWS"
+FastWS.Parent = Main
+FastWS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+FastWS.BorderColor3 = Color3.fromRGB(65, 65, 65)
+FastWS.BorderSizePixel = 0
+FastWS.Position = UDim2.new(0, 0, 0.0910447836, 0)
+FastWS.Size = UDim2.new(0, 150, 0, 25)
+FastWS.Font = Enum.Font.Code
+FastWS.Text = "FastWS"
+FastWS.TextColor3 = Color3.fromRGB(255, 255, 255)
+FastWS.TextSize = 20.000
+
+DeleteKillBarriers.Name = "DeleteKillBarriers"
+DeleteKillBarriers.Parent = Main
+DeleteKillBarriers.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+DeleteKillBarriers.BorderColor3 = Color3.fromRGB(65, 65, 65)
+DeleteKillBarriers.BorderSizePixel = 0
+DeleteKillBarriers.Position = UDim2.new(0.508196712, 0, 0.650746286, 0)
+DeleteKillBarriers.Size = UDim2.new(0, 150, 0, 25)
+DeleteKillBarriers.Font = Enum.Font.Code
+DeleteKillBarriers.Text = "Delete Kill Barriers"
+DeleteKillBarriers.TextColor3 = Color3.fromRGB(255, 255, 255)
+DeleteKillBarriers.TextScaled = true
+DeleteKillBarriers.TextSize = 20.000
+DeleteKillBarriers.TextWrapped = true
+
+NormalWS.Name = "NormalWS"
+NormalWS.Parent = Main
+NormalWS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+NormalWS.BorderColor3 = Color3.fromRGB(65, 65, 65)
+NormalWS.BorderSizePixel = 0
+NormalWS.Position = UDim2.new(0, 0, 0.187611938, 0)
+NormalWS.Size = UDim2.new(0, 150, 0, 25)
+NormalWS.Font = Enum.Font.Code
+NormalWS.Text = "NormalWS"
+NormalWS.TextColor3 = Color3.fromRGB(255, 255, 255)
+NormalWS.TextSize = 20.000
+
+InfJump.Name = "InfJump"
+InfJump.Parent = Main
+InfJump.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+InfJump.BorderColor3 = Color3.fromRGB(65, 65, 65)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.508000076, 0, 0.187611878, 0)
+InfJump.Size = UDim2.new(0, 150, 0, 25)
+InfJump.Font = Enum.Font.Code
+InfJump.Text = "Inf Jump"
+InfJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfJump.TextSize = 20.000
+
+Stuff.Name = "Stuff"
+Stuff.Parent = Main
+Stuff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Stuff.BackgroundTransparency = 1.000
+Stuff.BorderSizePixel = 0
+Stuff.Position = UDim2.new(0.00442034611, 0, -0.00248754025, 0)
+Stuff.Size = UDim2.new(0, 304, 0, 25)
+Stuff.Font = Enum.Font.Code
+Stuff.Text = "Stuff"
+Stuff.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stuff.TextSize = 20.000
+
+Extra.Name = "Extra"
+Extra.Parent = Main
+Extra.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Extra.BackgroundTransparency = 1.000
+Extra.BorderSizePixel = 0
+Extra.Position = UDim2.new(0.00442034611, 0, 0.560945272, 0)
+Extra.Size = UDim2.new(0, 304, 0, 25)
+Extra.Font = Enum.Font.Code
+Extra.Text = "Extra"
+Extra.TextColor3 = Color3.fromRGB(255, 255, 255)
+Extra.TextSize = 20.000
+
+DeleteBarriers.Name = "DeleteBarriers"
+DeleteBarriers.Parent = Main
+DeleteBarriers.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+DeleteBarriers.BorderColor3 = Color3.fromRGB(65, 65, 65)
+DeleteBarriers.BorderSizePixel = 0
+DeleteBarriers.Position = UDim2.new(0, 0, 0.650746286, 0)
+DeleteBarriers.Size = UDim2.new(0, 150, 0, 25)
+DeleteBarriers.Font = Enum.Font.Code
+DeleteBarriers.Text = "Delete Barriers"
+DeleteBarriers.TextColor3 = Color3.fromRGB(255, 255, 255)
+DeleteBarriers.TextSize = 18.000
+
+NoLegs.Name = "NoLegs"
+NoLegs.Parent = Main
+NoLegs.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+NoLegs.BorderColor3 = Color3.fromRGB(65, 65, 65)
+NoLegs.BorderSizePixel = 0
+NoLegs.Position = UDim2.new(0, 0, 0.74731344, 0)
+NoLegs.Size = UDim2.new(0, 150, 0, 25)
+NoLegs.Font = Enum.Font.Code
+NoLegs.Text = "No Legs"
+NoLegs.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoLegs.TextSize = 20.000
+
+Reset.Name = "Reset"
+Reset.Parent = Main
+Reset.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Reset.BorderColor3 = Color3.fromRGB(65, 65, 65)
+Reset.BorderSizePixel = 0
+Reset.Position = UDim2.new(0.508000076, 0, 0.74731338, 0)
+Reset.Size = UDim2.new(0, 150, 0, 25)
+Reset.Font = Enum.Font.Code
+Reset.Text = "Reset"
+Reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reset.TextSize = 20.000
+
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = Main
+ClickTP.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ClickTP.BorderColor3 = Color3.fromRGB(65, 65, 65)
+ClickTP.BorderSizePixel = 0
+ClickTP.Position = UDim2.new(0.508196712, 0, 0.0910447836, 0)
+ClickTP.Size = UDim2.new(0, 150, 0, 25)
+ClickTP.Font = Enum.Font.Code
+ClickTP.Text = "ClickTP"
+ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP.TextSize = 20.000
+
+Credit.Name = "Credit"
+Credit.Parent = Main
+Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credit.BackgroundTransparency = 1.000
+Credit.BorderSizePixel = 0
+Credit.Position = UDim2.new(-0.00213703094, 0, 0.941542327, 0)
+Credit.Size = UDim2.new(0, 305, 0, 15)
+Credit.Font = Enum.Font.Code
+Credit.Text = "https://discord.gg/9AP5hm9Tpp"
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextScaled = true
+Credit.TextSize = 20.000
+Credit.TextWrapped = true
+
+OpenClose.Name = "Open/Close"
+OpenClose.Parent = Frame
+OpenClose.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+OpenClose.BorderColor3 = Color3.fromRGB(65, 65, 65)
+OpenClose.BorderSizePixel = 0
+OpenClose.Position = UDim2.new(0.918032765, 0, -0.00880615227, 0)
+OpenClose.Size = UDim2.new(0, 25, 0, 25)
+OpenClose.Font = Enum.Font.Code
+OpenClose.Text = "-"
+OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.TextScaled = true
+OpenClose.TextSize = 20.000
+OpenClose.TextWrapped = true
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.243764609, 0, -0.0157708749, 0)
+Name.Size = UDim2.new(0, 154, 0, 25)
+Name.Font = Enum.Font.Code
+Name.Text = "<3 SkyWarsUI"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 15.000
+Name.TextWrapped = true
+
+-- Scripts:
+
+local function EKIOVC_fake_script() -- TpMiddleIsland.LocalScript 
+	local script = Instance.new('LocalScript', TpMiddleIsland)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local plr = game:GetService('Players').LocalPlayer.Character
+		plr.HumanoidRootPart.CFrame = CFrame.new(-8, 164, 12)
+	end)
+end
+coroutine.wrap(EKIOVC_fake_script)()
+local function FLMVEV_fake_script() -- TpMVP.LocalScript 
+	local script = Instance.new('LocalScript', TpMVP)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local plr = game:GetService('Players').LocalPlayer.Character
+		plr.HumanoidRootPart.CFrame = CFrame.new(12, 264, 79)
+	end)
+end
+coroutine.wrap(FLMVEV_fake_script)()
+local function XVTJ_fake_script() -- TpVip.LocalScript 
+	local script = Instance.new('LocalScript', TpVip)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local plr = game:GetService('Players').LocalPlayer.Character
+		plr.HumanoidRootPart.CFrame = CFrame.new(-11, 264, -79)
+	end)
+end
+coroutine.wrap(XVTJ_fake_script)()
+local function EQBUJT_fake_script() -- TpShop.LocalScript 
+	local script = Instance.new('LocalScript', TpShop)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local plr = game:GetService('Players').LocalPlayer.Character
+		plr.HumanoidRootPart.CFrame = CFrame.new(60, 260.5, 0)
+	end)
+end
+coroutine.wrap(EQBUJT_fake_script)()
+local function KPBMUAQ_fake_script() -- FastWS.LocalScript 
+	local script = Instance.new('LocalScript', FastWS)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+	end)
+end
+coroutine.wrap(KPBMUAQ_fake_script)()
+local function VQTCVW_fake_script() -- DeleteKillBarriers.LocalScript 
+	local script = Instance.new('LocalScript', DeleteKillBarriers)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.workspace.Lobby.KillPlates:remove()
+	end)
+end
+coroutine.wrap(VQTCVW_fake_script)()
+local function LWHL_fake_script() -- NormalWS.LocalScript 
+	local script = Instance.new('LocalScript', NormalWS)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+end
+coroutine.wrap(LWHL_fake_script)()
+local function CVBTYW_fake_script() -- InfJump.LocalScript 
+	local script = Instance.new('LocalScript', InfJump)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")		
+		end)
+	end)
+end
+coroutine.wrap(CVBTYW_fake_script)()
+local function EZBEE_fake_script() -- DeleteBarriers.LocalScript 
+	local script = Instance.new('LocalScript', DeleteBarriers)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.workspace.Borders.InvisibleBorder:remove()
+	end)
+end
+coroutine.wrap(EZBEE_fake_script)()
+local function JZRYA_fake_script() -- NoLegs.LocalScript 
+	local script = Instance.new('LocalScript', NoLegs)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+		game.Players.LocalPlayer.Character["Left Leg"]:Destroy()
+	end)
+end
+coroutine.wrap(JZRYA_fake_script)()
+local function BSTG_fake_script() -- Reset.LocalScript 
+	local script = Instance.new('LocalScript', Reset)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Head:Destroy()
+	end)
+end
+coroutine.wrap(BSTG_fake_script)()
+local function HFKXSO_fake_script() -- ClickTP.LocalScript 
+	local script = Instance.new('LocalScript', ClickTP)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local Player = game.Players.LocalPlayer
+		local Mouse = Player:GetMouse()
+		local UserInputService = game:GetService('UserInputService')
+	
+		local HoldingControl = false
+	
+		Mouse.Button1Down:connect(function()
+			if HoldingControl then
+				Player.Character:MoveTo(Mouse.Hit.p)
+			end
+		end)
+	
+		UserInputService.InputBegan:connect(function(Input, Processed)
+			if Input.UserInputType == Enum.UserInputType.Keyboard then
+				if Input.KeyCode == Enum.KeyCode.LeftControl then
+					HoldingControl = true
+				elseif Input.KeyCode == Enum.KeyCode.RightControl then
+					HoldingControl = true 
+				end
+			end
+		end)
+	
+		UserInputService.InputEnded:connect(function(Input, Processed)
+			if Input.UserInputType == Enum.UserInputType.Keyboard then
+				if Input.KeyCode == Enum.KeyCode.LeftControl then
+					HoldingControl = false
+				elseif Input.KeyCode == Enum.KeyCode.RightControl then
+					HoldingControl = false
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(HFKXSO_fake_script)()
+local function TPPNGTS_fake_script() -- Frame.Drag 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(TPPNGTS_fake_script)()
+local function GBRO_fake_script() -- OpenClose.LocalScript 
+	local script = Instance.new('LocalScript', OpenClose)
+
+	script.Parent.MouseButton1Click:connect(function()
+	 script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
+	end)
+end
+coroutine.wrap(GBRO_fake_script)()
