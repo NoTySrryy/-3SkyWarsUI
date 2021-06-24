@@ -1,4 +1,5 @@
 -- https://discord.gg/9AP5hm9Tpp --
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Join The Discord", Text = "Made By <3"})
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Main = Instance.new("Frame")
